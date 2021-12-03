@@ -1,0 +1,16 @@
+C:\Users\bauti\source\repos\console-weatherapp\bin\Debug\net5.0\console-weatherapp.exe
+C:\Users\bauti\source\repos\console-weatherapp\bin\Debug\net5.0\console-weatherapp.deps.json
+C:\Users\bauti\source\repos\console-weatherapp\bin\Debug\net5.0\console-weatherapp.runtimeconfig.json
+C:\Users\bauti\source\repos\console-weatherapp\bin\Debug\net5.0\console-weatherapp.runtimeconfig.dev.json
+C:\Users\bauti\source\repos\console-weatherapp\bin\Debug\net5.0\console-weatherapp.dll
+C:\Users\bauti\source\repos\console-weatherapp\bin\Debug\net5.0\ref\console-weatherapp.dll
+C:\Users\bauti\source\repos\console-weatherapp\bin\Debug\net5.0\console-weatherapp.pdb
+C:\Users\bauti\source\repos\console-weatherapp\obj\Debug\net5.0\console-weatherapp.csprojAssemblyReference.cache
+C:\Users\bauti\source\repos\console-weatherapp\obj\Debug\net5.0\console-weatherapp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bauti\source\repos\console-weatherapp\obj\Debug\net5.0\console-weatherapp.AssemblyInfoInputs.cache
+C:\Users\bauti\source\repos\console-weatherapp\obj\Debug\net5.0\console-weatherapp.AssemblyInfo.cs
+C:\Users\bauti\source\repos\console-weatherapp\obj\Debug\net5.0\console-weatherapp.csproj.CoreCompileInputs.cache
+C:\Users\bauti\source\repos\console-weatherapp\obj\Debug\net5.0\console-weatherapp.dll
+C:\Users\bauti\source\repos\console-weatherapp\obj\Debug\net5.0\ref\console-weatherapp.dll
+C:\Users\bauti\source\repos\console-weatherapp\obj\Debug\net5.0\console-weatherapp.pdb
+C:\Users\bauti\source\repos\console-weatherapp\obj\Debug\net5.0\console-weatherapp.genruntimeconfig.cache
