@@ -1,7 +1,10 @@
-﻿using System.Net.Http.Headers;
+﻿using System.Runtime.Serialization.Json;
+using System.Net.Http.Headers;
 using System.Net.Http;
 using System;
 using System.Threading.Tasks;
+using System.Collections.Generic;
+using System.Text.Json;
 
 namespace console_weatherapp
 {
@@ -16,10 +19,12 @@ namespace console_weatherapp
                 new MediaTypeWithQualityHeaderValue("application/vnd.github.v3+json"));
             client.DefaultRequestHeaders.Add("User-Agent", ".NET Foundation Repository Reporter");
 
-            var stringTask = client.GetStringAsync("https://api.github.com/orgs/dotnet/repos");
-
-            var msg = await stringTask;
-            Console.WriteLine(msg);
+            var streamTask = client.GetStreamAsync("https://api.github.com/orgs/dotnet/repos");
+            var repositories = await JsonSerializer.DeserializeAsync<List<Repository>>(await streamTask);
+            foreach (var repo in repositories)
+            {
+                Console.WriteLine(repo.Name);
+            }
 
         }
 
