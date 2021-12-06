@@ -1,4 +1,5 @@
-﻿using System.Runtime.Serialization.Json;
+﻿using System.Reflection.Metadata.Ecma335;
+using System.Runtime.Serialization.Json;
 using System.Net.Http.Headers;
 using System.Net.Http;
 using System;
@@ -24,14 +25,24 @@ namespace console_weatherapp
             foreach (var repo in repositories)
             {
                 Console.WriteLine(repo.Name);
+                Console.WriteLine(repo.Description);
+                Console.WriteLine(repo.GithubHomeUrl);
+                Console.WriteLine(repo.Homepage);
+                Console.WriteLine(repo.Watchers);
+                Console.WriteLine();
             }
 
+        }
+
+        public static async Task WeatherAPICall()
+        {
+            
         }
 
         static async Task Main(string[] args)
         {
             await ProcessRepositories();
-            
+
         }
     }
 }
